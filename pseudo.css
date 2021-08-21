@@ -1,0 +1,44 @@
+.btn{
+    background-color: red;
+    color: whitesmoke;
+}
+.btn:hover {
+background-color: violet;
+color:turquoise;
+/* on the placing the cursor the color changes */
+}
+
+.btn:active {
+    background-color: yellow;
+    color: teal;
+    /* on click the colour will change*/
+}
+
+.btn:focus {
+background-color: springgreen;
+color: tomato;
+/* after clicking once the button color changes again it wil not com into normal color 
+it will stay in the same color */
+}
+/* these are till now are pseudo class */
+
+/* now pseudo elements :: pseudo class for most os the elements
+*/
+.para::before{
+/* this is used to eleminate extra tag for styling purpose */
+content: "hello ";
+color:peru;
+}
+
+.para::after{
+    /* this is used to eleminate extra tag for styling purpose */
+    content: " world ";
+    /* this content is visible only in the css part when we see code int he website
+    we cannot copy this text */
+    color:peru;
+    }
+
+.para::selection {
+    color:powderblue;
+    background-color: saddlebrown;
+}

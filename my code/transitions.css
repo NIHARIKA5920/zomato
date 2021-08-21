@@ -1,0 +1,43 @@
+.btn{
+    background-color: rgb(252, 2, 2);
+    color:blanchedalmond;
+    width:100px;
+    height:50px;
+    transition-delay:2s;
+    transition-duration: 2s;
+    /* this is used to show the delay on the effects after a perticular time */
+}
+.btn:focus{
+    background-color: black;
+    color: blanchedalmond;
+    width:150px;
+    height: 100px;
+    transition-delay: 1s;
+    transition-duration: 5s;
+    /* this shows a smooth effect for changinfg the color */
+    /* transition-property:height,color; */
+}
+
+.parent{
+    width:600px;
+    height: 600px;
+    border:5px dashed violet;
+    padding: 10px;
+}
+.child{
+    width:200px;
+    height: 200px;
+    border-color: tomato;
+    background-color: orange;
+}
+.child:hover{
+    background-color: palegoldenrod;
+    border-radius: 30%;
+    /* transition-delay: 1s; */
+    transition-duration: 1s;
+    transform:translateY(150%) ;
+    /* transform: translateX(50%);
+    both at the same time will not work */
+    /* button:focus can be used only in case of buttion */
+
+}

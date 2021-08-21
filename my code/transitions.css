@@ -12,8 +12,8 @@
     color: blanchedalmond;
     width:150px;
     height: 100px;
-    transition-delay: 1s;
-    transition-duration: 5s;
+    /* transition-delay: 1s;
+    transition-duration: 5s; */
     /* this shows a smooth effect for changinfg the color */
     /* transition-property:height,color; */
 }
